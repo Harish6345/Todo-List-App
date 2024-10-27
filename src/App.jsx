@@ -31,7 +31,7 @@ const App = () => {
   return (
     <div className='min-h-screen bg-gradient-to-t from-violet-500 to bg-slate-300 flex justify-center items-center'>
       {/* ----Main-container---- */}
-      <div className="todo-container bg-slate-200 h-[600px] w-[600px] p-5 ">
+      <div className="todo-container bg-slate-200 h-auto sm:h-[600px] sm:w-[600px] p-5 ">
         <div className="header flex justify-center gap-[1.5rem] items-center font-bold w-full">
           <FaCalendarCheck className='text-4xl ' />
           <h1 className='text-4xl'>Todo-List-App</h1>
